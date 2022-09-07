@@ -1,0 +1,22 @@
+.Button {
+    padding: 11px 25px;
+    border-radius: 8px;
+    position: relative;
+    height: 45px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    border: none;
+
+    color: white;
+    background-color: #11375f;
+
+    &:hover {
+        background-color: rgba($color: #11375f, $alpha: 0.4);
+    }
+
+
+    &:active {
+        top: 4px;
+    }
+}

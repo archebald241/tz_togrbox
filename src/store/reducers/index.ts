@@ -1,0 +1,1 @@
+export {default as clockReducer, addClock, changeTimezone, deleteClock} from "./ClockSlice";
